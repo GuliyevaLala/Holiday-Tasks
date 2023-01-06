@@ -1,0 +1,224 @@
+*{
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+	list-style: none;
+	text-decoration:none;
+
+}
+body {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:21px;
+	color:#9FB1B2;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#212b2d;
+}
+#container{
+	width: 900px;
+	height: auto;
+	margin:0 auto;
+	padding:20px 0 10px 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom:15px;
+
+}
+h1 {
+	font-size:33px;
+}
+
+h2 {
+	font-size:25px;
+}
+
+h3 {
+	font-size:18px;
+}
+
+h4 {
+	font-size:16px;
+}
+
+h5 {
+	font-size:14px;
+}
+
+h6 {
+	font-size:12px;
+}
+
+#container #header {
+	padding:0px 0px 20px;
+}
+
+#container #header .slider{
+	background:url(../images/map-of-the-world-2401458_960_720.jpg) no-repeat left top;
+	height:190px;
+	padding:60px 95px 0 95px;
+	border:#6C8286 solid 1px;
+	margin-bottom:10px;
+}
+
+#header h1{
+	font-size:32px;
+	color:#213e44;
+	margin:0px;
+	padding:0px 0px 10px;
+}
+#header p{
+	font-size:16px;
+	margin-left:1px;
+	color:#44152a;
+	font-weight: 600;
+}
+
+.navbar{
+	margin-bottom:5px;
+	padding:13px 5px;
+	background: #333d3f; 
+}
+
+.navbar ul{
+	margin:0px;
+	padding:0px;
+}
+
+.navbar ul li{
+	margin:0px;
+	padding:0px 35px;
+	display:inline;
+	font-size:14px;
+	list-style-type:none;
+	border-right:#91969a dotted 1px; 
+}
+
+.navbar ul li a{
+	color:#F5F5F5;
+}
+
+.navbar ul li a:hover{
+	text-decoration:underline;
+}
+
+.navbar ul li:last-child {
+	border-right:none;
+}
+
+main{
+	padding:0px 0px 20px;
+}
+.leftSide{
+	width:210px;
+	float:left;
+}
+
+.leftSide h1{
+	font-size:20px;
+	padding:0 0 0 25px;
+	font-weight:bold;
+	margin-bottom:15px;
+	color:#9aacae;
+}
+
+.leftSide .column{
+	padding:0px 0 20px 0;
+}
+
+.leftSide .column .sidebar{
+	padding:10px 15px 5px;
+	border:#283032 solid 1px;
+}
+
+.leftSide .column .sidebar ul{
+	margin:0px;
+	padding:0px;
+}
+
+.leftSide .column .sidebar ul li{
+	margin:0px 0px 8px;
+	padding:0px 0px 0px 15px;
+	font-size:13px;
+	list-style-type:none;
+	background:url(../images/li.png) no-repeat left center;
+}
+
+.leftSide .column .sidebar ul li a{
+	color:#9aacae;
+	text-decoration:underline;
+}
+
+.leftSide .column .sidebar ul li a:hover{
+	color:#9aacae;
+}
+
+main .main-context{
+	width:650px;
+	float:right;
+}
+
+main .main-context .subs-context{
+	padding:15px 0 0px 0;
+}
+
+main .main-context .subs-context .partone{
+	width:300px;
+	float:left;
+	margin-bottom:20px;
+}
+
+main .main-context .subs-context .parttwo{
+	width:300px;
+	float:right;
+	margin-bottom:20px;
+}
+
+a.btn{
+	color:#0a0800;
+	font-size:12px;
+	padding:6px 13px 6px 13px;
+	font-weight:bold;
+	display:inline-block;
+	border:#566568 solid 1px;
+	background-color:#97aaae;
+}
+
+
+.gallery-contex{
+	padding:0 0 20px 0;
+}
+
+.other{
+	border-left:#6e7678 dotted 1px;
+	padding-left:20px;
+
+}
+
+.border_none{
+	border:none!important;
+	margin:0px!important;
+}
+
+#footer{
+	clear:both;
+	margin-top:18px;
+	padding:15px 0 0px 0;
+	height:25px;
+	text-align:center;
+	font-family:Verdana, sans-serif;
+	font-size:12px;
+	line-height:19px;
+	border-top:#525b60 solid 1px;
+}
+
+#footer a{
+	color: #81c266;
+	text-decoration:none;
+}
+
+#footer a:hover{
+	color: #81c266;
+	text-decoration:underline;
+}

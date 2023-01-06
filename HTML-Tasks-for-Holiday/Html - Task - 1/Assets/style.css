@@ -1,0 +1,126 @@
+*{
+
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(135, 128, 128);
+    height: 110vh;
+    width: 90vw;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+#nav-container{
+    margin-left: 250px;
+
+}
+header h1{
+    color: rgb(53, 58, 49);
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+.navigation{
+    width: 61vw;
+    height: auto;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px; 
+}
+.navbar li a{
+    color: black;
+    font-weight: 800;
+}
+form{
+    margin-left: 50px;
+}
+/* input:nth-child(1){
+    width: 
+    background-color: rgb(249, 243, 243);
+    box-shadow: 0 0 20px rgba(3, 3, 3, 0.562);
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+} */
+
+input[type=search] {
+    border:solid 1px #fff;
+    box-sizing:border-box;
+    font-size: 0.9em;
+    padding:.5em;
+    width:150px;
+}
+input[type=submit] {
+    box-sizing:border-box;
+    font-size: 0.9em;
+    padding:.5em;
+    width:80px;
+    color: #fff;
+    background-color: rgb(19, 21, 24);
+}
+
+section	{
+    background-color: #ffffff;
+    float: left;
+    color: #777777;
+}
+#context{
+    width: 750px;
+    height: auto;
+    background-color: rgb(252, 252, 252);
+    margin-left: 50px;
+    position: relative;
+    text-align: left;
+    top: 30px;
+    margin-left: 247px;
+    margin-bottom: 50px;
+
+}
+#context {
+    height: auto;
+    padding: 20px;
+}
+#context .middle{
+    text-align: center;
+    font-weight: 700;
+}
+
+
+#side{
+    float: right;
+    padding: 10px;
+    width: 170px;
+    height: 645px;
+    top: 30px;
+    text-align: center;
+    margin-right: 195px;
+    margin-top: 30px;
+    background-color: hotpink;
+
+}
+#side ul li a {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+footer {
+    clear: both;
+    padding: 18px;
+    height: 70px;
+    background-color: #fdfdfd;
+    width: 939px;
+    color: #220909;
+    text-align: center;
+    margin-left: 247px;
+}
+

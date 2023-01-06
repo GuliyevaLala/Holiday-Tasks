@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    color: #504242;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: left;
+    width: 1200px;
+}
+
+.navigation {
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    height: 60px;
+}
+header	{
+    float: left;
+    background-color: #4aaaa5;
+    border-bottom: none;
+    color: #ffffff;
+    height: 100%;
+    width: 270px;
+    margin-left: 125px;
+    margin-bottom: 0;
+    font-family: 'Georgia', Times, serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+h2,
+h3	{
+    color: #4aaaa5;
+    border-bottom:	3px solid #dddddd;
+    font-family: 'Georgia', Times, serif;
+    margin-top: 1px;
+    padding-bottom: 3px;
+}
+
+nav	{
+    width: 270px;
+    float: right;
+    text-align: center;
+    margin-right: 125px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+li.border {
+    border-right: 1px solid #dddddd;
+    padding: 10px;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.container {
+    clear: both;
+    overflow: auto;
+    margin: 0 auto;
+    height: 600px;
+    width: 100%;
+    border-bottom: 5px solid #4aaaa5;
+}
+.icon {
+    width: 60px;
+    height: auto;
+    color: none;
+    border-right: none;
+}
+  
+#connection {
+    float: right;
+    padding: 10px;
+    width: 270px;
+    top: 30px;
+    text-align: center;
+    margin-right: 125px;
+    margin-top: 30px
+}
+section	{
+    background-color: #ffffff;
+    float: left;
+    color: #777777;
+    border: 2px solid #dddddd;
+}
+
+
+ 
+#social-links {
+    float: right;
+    padding: 10px;
+    width: 270px;
+    top: 30px;
+    text-align: center;
+    margin-right: 125px;
+    margin-top: 30px
+}
+
+#main-context
+{
+    position: relative;
+    text-align: left;
+    width: 650px;
+    top: 30px;
+    margin-left: 125px;
+    margin-bottom: 50px;
+}
+
+#main-context {
+    height: auto;
+    padding: 20px;
+}
+
+#image {
+    clear: both;
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+footer {
+    clear: both;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 18px;
+    height: 70px;
+    background-color: #666666;
+    width: 100%;
+    border-bottom: none;
+    color: #220909;
+    text-align: center;
+}
+
